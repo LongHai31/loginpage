@@ -82,3 +82,104 @@
 background-color: tomato;
 color: #fff;
 }
+.content_divform_formhelp{
+    display: flex;
+    justify-content: space-between;
+}
+.content_divform_a{
+    color: #05a;
+    font-size: .75rem;
+}
+.content_divform_seperate{
+    padding-bottom: 0.875rem;
+    display: flex;
+    align-items: center;
+}
+.content_divform_space{
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+    flex:1;
+}
+.content_divform_span{
+    color: #ccc;
+    padding:0 1rem;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+.content_divform_social{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0 -0.3125rem;
+}
+.content_divform_btnsocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.26);
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    padding: 0 2px;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    font-size: .875rem;
+}
+.content_divform_pd{
+    padding-right: 8px;
+}
+.content_divform_flex{
+    flex: 1;
+    margin: 0.3125rem;
+}
+.content_divform_iconlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 1px;
+}
+.logosocial{
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+.social_white_bgrfb{
+    background-image: url(Facebook_Logo_\(2019\).png);
+}
+.social_white_fb{
+    background-size: cover;
+    background-position: center center;
+}
+.social_white_bgrgg{
+    background-image: url(3043686-middle.png);
+}
+.social_white_gg{
+    background-size: cover;
+    background-position: center center;
+}
+.social_white_bgrap{
+    background-image: url(png-clipart-apple-logo-apple-heart-logo.png);
+}
+.social_white_ap{
+    background-size: cover;
+    background-position: center center;
+}
+.content_divform_signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: .875rem;
+    color: rgba(0,0,0,.26);
+}
+.content_divform_linksignup{
+    color:#ee4d2d;
+    font-size: .875rem;
+    font-weight: 500;
+}
